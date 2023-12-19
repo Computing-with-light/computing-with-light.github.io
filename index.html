@@ -1,51 +1,139 @@
-<h1>Welcome to MIT 6.S918: Optical Computing in the Era of AI</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<h3>Overview</h3>
-We live in an age of big machine learning models, where modern deep neural networks comprise hundreds of billions of parameters. As these models continue to scale, the ever-growing requirements on energy efficiency and computation speed have sparked a new industry in designing specialized computing hardware optimized for neural networks. 
+<head>
+    <meta charset="UTF-8">
+    <title>MIT 6.S0918 - Optical Computing</title>
+    <link rel="stylesheet" href="dist/main.css">
+    <script src="dist/main.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
 
-<br>In this constantly evolving landscape of technology, light-based computing, commonly referred to as "optical" or "photonic" computing, is a revolutionary paradigm shift promising higher computing frequency and less energy consumption than traditional digital computing.  This course aims to introduce students to this exciting and rapidly growing field, focusing particularly on:
+<header>
+    <ul>
+        <span class="leftlink"><a href="">MIT 6.S0918 - Optical Computing in the Era of AI</a></span>
+        <span class="rightlink"><a href="#syllabus_sec">Syllabus</a> | <a href="#materials_sec">Course Materials</a>
+        </span>
+    </ul>
+</header>
 
-<br>1. How can light be used for computing, and why should we build optical computing hardware?
+<br />
+<br />
 
-<br>2. What are the fundamental devices used for photonic computing?
+<div>
+    <div class="outercontainer">
+        <div class="container body">
+            <div class="content heading anchor" id="home">
 
-<br>3. How do these photonic devices integrate into modern computer systems for real-world computing workloads?
+                <h1>Welcome to MIT 6.S0918: Optical Computing in the Era of AI</h1>
 
-<br>This course will integrate lectures, lab tours, demos, and a final team presentation on new research areas in photonic computing. 
+                <h3>Overview</h3>
+                We live in an age of big machine learning models, where modern deep neural networks comprise hundreds of
+                billions of parameters. As these models continue to scale, the ever-growing requirements on energy
+                efficiency and computation speed have sparked a new industry in designing specialized computing hardware
+                optimized for neural networks.
 
-<br>This course is provided by <a href="https://scholar.google.com/citations?user=oF8UGCkAAAAJ&hl=en&oi=ao" target="_blank">Dr. Saumil Bandyopadhyay</a> and <a href="https://people.csail.mit.edu/zhizhenzhong/" target="_blank">Dr. Zhizhen Zhong</a> at MIT EECS, during IAP 2024 from January 8th to February 2nd.
+                <br>In this constantly evolving landscape of technology, light-based computing, commonly referred to as
+                "optical" or "photonic" computing, is a revolutionary paradigm shift promising higher computing
+                frequency and less energy consumption than traditional digital computing. This course aims to introduce
+                students to this exciting and rapidly growing field, focusing particularly on:
+                <br>
+                <br>1. How can light be used for computing, and why should we build optical computing hardware?<br>
 
-<h3>Course Information</h3>
-Lecture: Monday / Wednesday / Friday, 2:30 – 4:00 pm 
+                <br>2. What are the fundamental devices used for photonic computing?<br>
 
-<br>Location: TBD 
+                <br>3. How do these photonic devices integrate into modern computer systems for real-world computing workloads?<br>
 
-<br>Office hours: Monday / Friday 4:00 – 5:00 pm 
+                <br>This course will integrate lectures, lab tours, demos, and a final team presentation on new research
+                areas in photonic computing.
 
-<br>Location: TBD
+                <h3>Course Information</h3>
+                Lecture hours: Monday / Wednesday / Friday, 2:30 – 4:00 pm
 
-<h3>Background required</h3>
-Both undergraduate and graduate students are welcome. We aim to make this course accessible to a broad range of backgrounds. However, students should have taken at least one electromagnetism course at the advanced undergraduate level and one course in computer architecture and systems (e.g., combinational and pipelined arithmetic-logic units (ALU), in-order pipelined microarchitecture, etc.). Some examples of MIT courses that would be adequate background (old course numbers in brackets) are:
+                <br>Location: 37-212
+                <br>
+                <br>Office hours: Monday / Friday 4:00 – 5:00 pm
 
-<br>Electromagnetism:
+                <br>Location: TBD
 
-<br>6.2300 [6.013] Electromagnetic Waves and Applications
+                <h3>Background required</h3>
+                Both undergraduate and graduate students are welcome. We aim to make this course accessible to a broad
+                range of backgrounds. However, students should have taken at least one electromagnetism course at the
+                advanced undergraduate level and one course in computer architecture and systems (e.g., combinational
+                and pipelined arithmetic-logic units (ALU), in-order pipelined microarchitecture, etc.). Some examples
+                of MIT courses that would be adequate background (old course numbers in brackets) are:
 
-<br>6.S046/6.S976 Silicon Photonics
+                <br>Electromagnetism:
 
-<br>6.6330/6.6331 [6.602/6.621] Fundamentals of Photonics
+                <li>6.2300 [6.013] Electromagnetic Waves and Applications</li>
 
-<br>6.6300 [6.630] Electromagnetic Waves
+                <li>6.S046/6.S976 Silicon Photonics</li>
 
-<br>Computer Architecture:
+                <li>6.6330/6.6331 [6.602/6.621] Fundamentals of Photonics</li>
 
-<br>6.1910 [6.004] Computation Structures
+                <li>6.6300 [6.630] Electromagnetic Waves</li>
 
-<br>6.5900 [6.823] Computer System Architecture
+                <br>Computer Architecture:
 
-<br>Students should also be familiar with the basic principles underlying deep neural networks. Courses that cover this include 6.3900 [6.036] at the undergraduate level and 6.7900 [6.867] at the graduate level.
+                <li>6.1910 [6.004] Computation Structures</li>
 
-<br>Other courses may also be sufficient background–if you have questions about the prerequisites, please feel free to email the instructors.
+                <li>6.5900 [6.823] Computer System Architecture</li>
+
+                <br>Students should also be familiar with the basic principles underlying deep neural networks. Courses
+                that cover this include 6.3900 [6.036] at the undergraduate level and 6.7900 [6.867] at the graduate
+                level.
+
+                <br>Other courses may also be sufficient background. If you have questions about the prerequisites,
+                please feel free to email the instructors.
+
+                <h3>Course Staff</h3>
+                <h4>instructors</h4>
+                <ul>
+                    <li>Dr. Saumil Bandyopadhyay, <a href="mailto:saumilb@mit.edu">saumilb@mit.edu</a></li>
+                    <li>Dr. Zhizhen Zhong, <a href="mailto:zhizhenz@mit.edu">zhizhenz@mit.edu</a></li>
+                </ul>
+
+                <h4>Advisors</h4>
+                <ul>
+                    <li>Prof. Dirk Englund, <a href="mailto:englund@mit.edu">englund@mit.edu</a></li>
+                    <li>Dr. Ryan Hamerly, <a href="mailto:hamerly@mit.edu">hamerly@mit.edu</a></li>
+                </ul>
+
+                <h4>Guest Speakers</h4>
+                <ul>
+                    <li>TBD</li>
+                </ul>
 
 
+                <h3>Course Schedule (Tentative)</h3>
+                <h4>Week 1</h4>
+                <ul>
+                    <li>Jan. 8 (Monday): Introduction to Optical Computing</li>
+                    <li>Jan. 10 (Wednesday): Device I: Silicon Photonics</li>
+                    <li>Jan. 12 (Friday): Device II: Early Demonstrations of Optical Computing using Silicon Photonics</li>
+                </ul>
+                
+                <h4>Week 2</h4>
+                <ul>
+                    <li>Jan. 15 (Monday): No class (Martin Luther King Day)</li>
+                    <li>Jan. 17 (Wednesday): Guest Lecture from Dr. Ryan Hamerly</li>
+                    <li>Jan. 19 (Friday): System I: From Optical Accelerators to Machine Learning Systems</li>
+                </ul>
 
+                <h4>Week 3</h4>
+                <ul>
+                    <li>Jan. 22 (Monday): No class</li>
+                    <li>Jan. 24 (Wednesday): Guest Lecture </li>
+                    <li>Jan. 26 (Friday): System II: State-of-the-art Optical Computing Successes</li>
+                </ul>
+                <h4>Week r</h4>
+                <ul>
+                    <li>Jan. 29 (Monday): Group project presentation</li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
